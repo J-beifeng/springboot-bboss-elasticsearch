@@ -11,3 +11,5 @@ es:
   indexs: teacher,student
 ```
 ##### 创建对应的mapper.xml文件即可
+
+申明：此项目完全来自https://blog.csdn.net/qq_31748587/article/details/84134864博客，纯粹用来学习，如有侵犯，可立即删除。
