@@ -49,6 +49,6 @@ public class TeacherController {
     
     @GetMapping("hello")
     public String hello(){
-        return "hello word";
+        return "hello word1";
     }
 }
