@@ -1,7 +1,6 @@
 package com.mn.springboot.controller;
 
 import com.mn.springboot.pojo.Teacher;
-import com.mn.springboot.utils.es.ESClient;
 import com.mn.springboot.utils.es.ESUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -46,5 +45,10 @@ public class TeacherController {
         teacher.setTeacherId("2");
         List<Teacher> t = esUtil.exec("teacher",teacher,"searchTeacher");
         return t;
+    }
+    
+    @GetMapping("hello")
+    public String hello(){
+        return "hello word";
     }
 }
